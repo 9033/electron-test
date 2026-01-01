@@ -1,0 +1,22 @@
+{
+  "name": "electron-vue3-hello-world",
+  "version": "1.0.0",
+  "description": "Electron app with Vue3 displaying Hello World",
+  "main": "main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "electron": "electron .",
+    "electron-dev": "concurrently \"npm run dev\" \"wait-on http://localhost:5173 && electron .\""
+  },
+  "dependencies": {
+    "vue": "^3.3.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "concurrently": "^7.6.0",
+    "electron": "^25.0.0",
+    "vite": "^4.0.0",
+    "wait-on": "^7.0.0"
+  }
+}
