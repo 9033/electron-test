@@ -31,7 +31,9 @@
       "target": "dmg"
     },
     "win": {
-      "target": "nsis"
+      "target": "portable",
+      "certificateFile": null,
+      "certificatePassword": null
     }
   }
 }
